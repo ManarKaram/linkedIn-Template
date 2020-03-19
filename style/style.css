@@ -1,2 +1,86 @@
+@import url("../node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.m-xs {
+  margin: 0.2rem; }
+
+.m-sm {
+  margin: 0.5rem; }
+
+.m-md {
+  margin: 1rem; }
+
+.nav {
+  background-color: #283e4a;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .nav__logo {
+    background-size: cover;
+    display: inline-block;
+    margin-right: 0.5rem;
+    background-color: white;
+    height: 2rem;
+    border-radius: 5px; }
+    .nav__logo img {
+      width: 1.9rem;
+      height: 2rem; }
+  .nav__search {
+    display: inline-block;
+    background-color: #e1e9ee;
+    margin-right: 7rem;
+    border-radius: 0.2rem; }
+    .nav__search i {
+      padding-left: 0.5rem;
+      color: #283e4a;
+      font-size: 0.7rem; }
+    .nav__search input {
+      background-color: #e1e9ee;
+      height: 1.6rem;
+      border-style: none;
+      width: 15rem;
+      border-radius: 0.2rem; }
+  .nav__menu {
+    display: inline-block;
+    margin: 0.3rem; }
+    .nav__menu .menu__item {
+      list-style: none;
+      display: inline-block;
+      color: #e1e9ee;
+      font-size: 12px;
+      padding-right: 1.6rem; }
+      .nav__menu .menu__item:hover {
+        color: white; }
+      .nav__menu .menu__item .arrow {
+        display: inline-block; }
+      .nav__menu .menu__item .image {
+        background-image: url(../images/user.png);
+        background-size: cover;
+        height: 1.2rem;
+        width: 1.2rem;
+        border-radius: 50%;
+        border-color: #e1e9ee;
+        border-style: solid;
+        border-width: 0.5px; }
+      .nav__menu .menu__item i {
+        display: flex;
+        font-size: 1.2rem;
+        justify-content: center;
+        align-self: center;
+        margin: auto;
+        padding-bottom: 4px;
+        color: #e1e9ee; }
+        .nav__menu .menu__item i:hover {
+          color: #fff; }
+      .nav__menu .menu__item span {
+        font-size: 10px; }
+      .nav__menu .menu__item:last-child {
+        padding-left: 10px; }
+    .nav__menu:hover {
+      cursor: pointer; }
+  .nav .border {
+    border-right: solid #e1e9ee 0.5px; }
+
 .btn {
   color: red; }

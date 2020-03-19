@@ -1,4 +1,4 @@
-
+@import url("../node_modules/@fortawesome/fontawesome-free/css/all.min.css");
     //abstracts
 @import
   'abstracts/variables',
@@ -14,7 +14,8 @@
    //base
 @import
   'base/reset',
-  'base/typography';
+  'base/typography',
+  'base/utilities';
 
 
 
