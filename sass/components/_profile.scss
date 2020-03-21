@@ -1,0 +1,38 @@
+.profile{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 13%;
+   
+    
+
+    &__main{
+        width:62%;
+        height: 28rem;
+        border-color: $primary-font-color;
+        border-width: 0.01rem;
+        border-style: solid;
+        margin-right: 1.5rem;
+
+        .cover{
+            border-color: $primary-font-color;
+            border-width: 0.01rem;
+            border-style: solid;
+            height: 45%;
+        }
+        .photo{
+            border-color: $primary-font-color;
+            border-width: 0.01rem;
+            border-style: solid;
+            border-radius: 50%;
+            // height: 10px;
+            background-color: green;
+            width: 20%;
+            height: 30%;
+            margin-left: 5%;
+            //position: relative;
+            
+        }
+    }
+    &__aside{
+    }
+}
