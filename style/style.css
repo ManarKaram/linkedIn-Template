@@ -1,4 +1,5 @@
 @import url("../node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
 * {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
@@ -81,9 +82,6 @@
       cursor: pointer; }
   .nav .border {
     border-right: solid #e1e9ee 0.5px; }
-
-.btn {
-  color: red; }
 
 .profile {
   display: flex;
