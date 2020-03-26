@@ -135,14 +135,14 @@ body{background-color: rgb(241, 241, 241);}
     .hidden{
             display: none;
         }
-    
+     //aside here
         &__aside{
             position: absolute;
             margin-left:860px;
            
             &__picture{
               position: relative;
-              margin-top:-350px;
+              margin-top:-750px;
                &img{
                    width:100%;
                }
@@ -150,16 +150,19 @@ body{background-color: rgb(241, 241, 241);}
         }
         &__interest{
             width:100%;
-            height:150px;
+            min-height:150px;
+            max-height: fit-content;
             background-color: white;
             border: 1px solid rgb(178, 180, 182);
             margin-top:15px;
             margin-bottom: 15px;
             box-shadow:0.5px 0.5px 5px #888888 ;
         }
+    //about here
         &__about{
             width:100%;
-            height:150px;
+            min-height:150px;
+            max-height: fit-content;
             background-color: white;
             border: 1px solid rgb(178, 180, 182);
             margin-top:15px;
@@ -184,8 +187,103 @@ body{background-color: rgb(241, 241, 241);}
             }
             
         }
-        
-        
+    //skills here
+        .skill__edite{
+            display:flex;
+            margin-left: 430px;
+            margin-top:2px;
+            &__btn{
+                border: none;
+                background-color: white;
+                &:hover{
+                    background-color: rgb(223, 223, 223);
+                }
+            }
+            &__icon{
+                margin-left: 8px;
+            }
+
+        }
+        .skill__content{
+            margin-top: 15px;
+            margin-right: 15px;
+            
+        }
+        .skill__search{
+            &__input{
+            position: relative;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-top: 6px;
+            margin-bottom: 0px;
+            margin-left: 20px;
+            width: 90%;
+            padding-left:5px;
+           
+            }
+            &__data{
+                display:flex;
+                margin-left: 20px;
+                margin-top:20px;
+                .para{
+                    background-color: rgb(25, 151, 201);
+                    color:white;
+                    border-radius: 40px;
+                    padding:10px;
+                    padding-top:5px;
+                    height:30px;
+                    margin-right:2px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+           
+            }
+
+             &__options{
+                option{
+                    width: 90%;
+
+                }
+
+            }
+            &__submit{
+                margin-top:100px;
+            }
+        }
+        .top-skill{
+            background-color: rgba(169, 196, 247, 0.368);
+            margin-top:-15px;
+            height: 50px;
+            margin-bottom: 0px;
+            p{
+                padding-top:10px;
+                margin-left: 12px;
+            }
+        }
+        .edite-list{
+            padding:0px;
+            &__item{
+            display:flex;
+            margin-bottom: 0px;
+            padding-bottom:0px;
+            p{  
+             margin-left: 12px
+            }
+            span{
+                margin-left:568px;
+                &:hover{
+                    color:rgb(196, 45, 45);
+                }
+            }
+            }
+
+        }
+       
+        .saveEdite{
+           margin-top:100px;
+        }
+        //end of skill
 
 }
    
