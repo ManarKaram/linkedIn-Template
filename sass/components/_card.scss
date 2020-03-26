@@ -1,0 +1,67 @@
+.card {
+        width: 250px;
+        height: 400px;
+        position: relative;
+        font-family: Arial,Tahoma;
+    &__body{
+        background-color: #FFF;
+        border-radius: 10px;
+        border: 1px solid #DDD;
+        text-align: center;
+        &__image {
+            background-color: #0097B2;
+            border-radius:  5px 5px 0 0;
+            img {
+                border-radius: 50%;
+                position: relative;
+                top: 30px;
+                border: 3px solid #FFF;
+                width: 3.9rem;
+                height: 4rem;
+            }
+        }
+        &__name {
+            margin-top: 50px;
+        }
+        &__title {
+            font-family: Arial,Tahoma;
+            font-size: 13px;
+        }
+        &__profile {
+            margin-right: 40px;
+            font-family: Arial,Tahoma;
+            color: #666;
+            display: inline;
+        }
+        &__numberProfile {
+            color:#0097B2 ;
+        }
+        &__connections {
+            font-family: Arial,Tahoma;
+            margin-right: 100px;
+            color: #666;
+            display: inline;
+        }
+        &__numberConnections {
+            color:#0097B2 ;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

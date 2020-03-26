@@ -84,3 +84,43 @@
 
 .btn {
   color: red; }
+
+.card {
+  width: 250px;
+  height: 400px;
+  position: relative;
+  font-family: Arial,Tahoma; }
+  .card__body {
+    background-color: #FFF;
+    border-radius: 10px;
+    border: 1px solid #DDD;
+    text-align: center; }
+    .card__body__image {
+      background-color: #0097B2;
+      border-radius: 5px 5px 0 0; }
+      .card__body__image img {
+        border-radius: 50%;
+        position: relative;
+        top: 30px;
+        border: 3px solid #FFF;
+        width: 3.9rem;
+        height: 4rem; }
+    .card__body__name {
+      margin-top: 50px; }
+    .card__body__title {
+      font-family: Arial,Tahoma;
+      font-size: 13px; }
+    .card__body__profile {
+      margin-right: 40px;
+      font-family: Arial,Tahoma;
+      color: #666;
+      display: inline; }
+    .card__body__numberProfile {
+      color: #0097B2; }
+    .card__body__connections {
+      font-family: Arial,Tahoma;
+      margin-right: 100px;
+      color: #666;
+      display: inline; }
+    .card__body__numberConnections {
+      color: #0097B2; }
