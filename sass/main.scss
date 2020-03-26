@@ -29,6 +29,7 @@
 
    //component
 @import
+    'components/add_form',
     'components/newPostContainer',
     'components/buttons',
     'components/card',
@@ -36,14 +37,14 @@
     'components/save-button',
     'components/more-button',
     'components/pen-button',
-    'components/buttons',
-    'components/profile';
+    'components/buttons';
 
 
     //pages
 @import
     'pages/contactus',
-    'pages/home';
+    'pages/home',
+    'pages/profile';
  
 
     //themes
