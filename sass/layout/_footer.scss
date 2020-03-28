@@ -1,5 +1,6 @@
 .footer{
-    
+    position: sticky;
+    top:0;
     &__linksList{
         width: 80%;
         list-style-type:none;

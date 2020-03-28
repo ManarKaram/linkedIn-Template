@@ -83,16 +83,19 @@
   .nav .border {
     border-right: solid #e1e9ee 0.5px; }
 
-.footer__linksList {
-  width: 80%;
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 2rem;
-  padding: 0rem; }
-  .footer__linksList__link {
-    color: #AAB3B8;
-    margin-left: 1rem; }
+.footer {
+  position: sticky;
+  top: 0; }
+  .footer__linksList {
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    padding: 0rem; }
+    .footer__linksList__link {
+      color: #AAB3B8;
+      margin-left: 1rem; }
 
 .newPostContainer {
   margin: 1rem;
@@ -122,11 +125,14 @@
   color: #727577;
   width: 15rem; }
 
+.btn {
+  background-color: #0097B2; }
+
 .card {
-  width: 250px;
-  height: 400px;
+  width: 200px;
   position: relative;
-  font-family: Arial,Tahoma; }
+  font-family: Arial,Tahoma;
+  margin-bottom: 10px; }
   .card__body {
     background-color: #FFF;
     border-radius: 10px;
@@ -147,20 +153,57 @@
     .card__body__title {
       font-family: Arial,Tahoma;
       font-size: 13px; }
-    .card__body__profile {
-      margin-right: 40px;
-      font-family: Arial,Tahoma;
-      color: #666;
-      display: inline; }
-    .card__body__numberProfile {
-      color: #0097B2; }
-    .card__body__connections {
-      font-family: Arial,Tahoma;
-      margin-right: 100px;
-      color: #666;
-      display: inline; }
-    .card__body__numberConnections {
-      color: #0097B2; }
+    .card__body__textContainer {
+      margin: 0 10px;
+      display: flex;
+      justify-content: space-between; }
+      .card__body__textContainer__profile {
+        font-family: Arial,Tahoma;
+        color: #666;
+        margin: 0rem;
+        padding: 0rem; }
+        .card__body__textContainer__profile:hover {
+          cursor: pointer; }
+      .card__body__textContainer__numberProfile {
+        color: #0097B2; }
+        .card__body__textContainer__numberProfile:hover {
+          cursor: pointer; }
+      .card__body__textContainer__connections {
+        font-family: Arial,Tahoma;
+        margin: 0rem;
+        padding: 0rem;
+        color: #666; }
+        .card__body__textContainer__connections:hover {
+          cursor: pointer; }
+      .card__body__textContainer__numberConnections {
+        color: #0097B2; }
+        .card__body__textContainer__numberConnections:hover {
+          cursor: pointer; }
+
+.secondCard {
+  width: 200px;
+  height: 400px;
+  position: sticky;
+  top: 0; }
+  .secondCard__body {
+    background-color: #FFF;
+    border-radius: 10px;
+    border: 1px solid #DDD; }
+    .secondCard__body__textContainer {
+      margin: 0 10px; }
+      .secondCard__body__textContainer__text, .secondCard__body__textContainer__text2 {
+        font-family: Arial,Tahoma;
+        color: #0097B2;
+        margin: 10px 3px;
+        padding: 0rem; }
+        .secondCard__body__textContainer__text:hover, .secondCard__body__textContainer__text2:hover {
+          cursor: pointer; }
+    .secondCard__body__displayMore {
+      background-color: #DDD;
+      text-align: center; }
+      .secondCard__body__displayMore__content {
+        padding: 10px 10px;
+        color: black; }
 
 .profile__container__controls__addsection {
   margin-top: -10px;
@@ -216,6 +259,9 @@
     color: #275c99;
     border: 0px solid darkcyan;
     margin: 25%; }
+
+.btn {
+  background-color: #0097B2; }
 
 body {
   background-color: #f1f1f1; }
@@ -359,6 +405,42 @@ body {
           min-height: 150px; }
         .profile__editeAbout__editeContainer__body label {
           margin-left: 20px; }
+
+.writePost {
+  background-color: #FFF; }
+  .writePost__header__content {
+    background-color: #0097B2;
+    color: #FFF;
+    padding: 10px;
+    margin: 0; }
+  .writePost__header__image {
+    display: flex;
+    background-color: #FFF;
+    border-radius: 5px 5px 0 0; }
+    .writePost__header__image img {
+      border-radius: 50%;
+      border: 3px solid #FFF;
+      width: 1.9rem;
+      height: 2rem;
+      margin: 5px; }
+    .writePost__header__image__username {
+      margin: 10px; }
+  .writePost__content {
+    margin: 0rem; }
+    .writePost__content textarea {
+      margin: 0rem;
+      border: none; }
+    .writePost__content__list {
+      background-color: #FFF;
+      margin: 0;
+      padding: 0rem; }
+      .writePost__content__list__listIcons {
+        margin: 0rem;
+        display: flex;
+        list-style-type: none; }
+        .writePost__content__list__listIcons__icon {
+          margin: 5px;
+          padding: 5px; }
 
 .homeContainer {
   display: flex;
