@@ -396,6 +396,23 @@
 .hidden {
   display: none; }
 
+.postContainer {
+  border: 1px solid #d9d9d9;
+  padding: 1rem;
+  background-color: white; }
+  .postContainer__info {
+    display: flex; }
+    .postContainer__info__img {
+      padding-right: 0.5rem; }
+  .postContainer__content {
+    padding: 1rem;
+    margin: 0.5rem 0rem;
+    border: 1px solid #d9d9d9; }
+  .postContainer__reaction {
+    display: flex; }
+    .postContainer__reaction__icon {
+      margin-right: 1rem; }
+
 .btn {
   background-color: #0097B2; }
 
