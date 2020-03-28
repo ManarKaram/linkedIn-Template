@@ -29,6 +29,9 @@
 
    //component
 @import
+    'components/editeForm',
+    'components/edit-info',
+    'components/add_form',
     'components/newPostContainer',
     'components/buttons',
     'components/card',
@@ -36,15 +39,14 @@
     'components/save-button',
     'components/more-button',
     'components/pen-button',
-    'components/buttons',
-    'components/postContainer',
-    'components/profile';
+    'components/buttons';
 
 
     //pages
 @import
     'pages/contactus',
-    'pages/home';
+    'pages/home',
+    'pages/profile';
  
 
     //themes
