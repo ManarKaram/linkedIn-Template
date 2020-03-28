@@ -97,6 +97,100 @@
       color: #AAB3B8;
       margin-left: 1rem; }
 
+.profile__editForm__editFormContainer {
+  position: fixed;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  z-index: 10; }
+  .profile__editForm__editFormContainer__editInput {
+    height: 100%; }
+    .profile__editForm__editFormContainer__editInput form {
+      position: relative;
+      z-index: 5;
+      margin-top: 15%;
+      margin-right: 10%;
+      padding: 20px;
+      z-index: 20; }
+      .profile__editForm__editFormContainer__editInput form .flex {
+        display: flex;
+        margin-bottom: 30px; }
+      .profile__editForm__editFormContainer__editInput form .name {
+        margin-right: 15px; }
+      .profile__editForm__editFormContainer__editInput form h6 {
+        color: black; }
+        .profile__editForm__editFormContainer__editInput form h6 span {
+          color: #0073B1; }
+      .profile__editForm__editFormContainer__editInput form input {
+        border-color: black;
+        border-width: 0.5px;
+        width: 320px; }
+      .profile__editForm__editFormContainer__editInput form .edit-form {
+        width: 650px;
+        border-color: black;
+        border-width: 0.5px; }
+      .profile__editForm__editFormContainer__editInput form .education {
+        margin-top: 20px; }
+        .profile__editForm__editFormContainer__editInput form .education select {
+          height: 30px; }
+      .profile__editForm__editFormContainer__editInput form .edit-btn {
+        margin-top: 40px;
+        margin-left: 104%; }
+
+.active {
+  display: block; }
+
+.profile__editeAbout {
+  width: 100%;
+  height: 100%;
+  background: rgba(41, 40, 40, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+  .profile__editeAbout__editeContainer {
+    width: 700px;
+    min-height: 350px;
+    max-height: fit-content;
+    background-color: white;
+    border: 1px solid #b2b4b6;
+    margin: 80px auto;
+    box-shadow: 0.5px 0.5px 5px #888888;
+    position: relative;
+    z-index: 20; }
+    .profile__editeAbout__editeContainer__header {
+      display: flex; }
+      .profile__editeAbout__editeContainer__header .h5 {
+        margin-left: 12px;
+        margin-top: 15px;
+        padding: 0px; }
+      .profile__editeAbout__editeContainer__header__icon {
+        margin-left: 560px;
+        margin-top: 15px;
+        width: 15px; }
+        .profile__editeAbout__editeContainer__header__icon .i {
+          color: #0c7fbd; }
+          .profile__editeAbout__editeContainer__header__icon .i:hover {
+            color: #c04444;
+            cursor: pointer; }
+    .profile__editeAbout__editeContainer__body {
+      justify-content: center; }
+      .profile__editeAbout__editeContainer__body__text {
+        width: 90%;
+        height: 150px;
+        padding: 12px 20px;
+        position: relative;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        max-height: 150px;
+        min-height: 150px; }
+      .profile__editeAbout__editeContainer__body label {
+        margin-left: 20px; }
+
 .newPostContainer {
   margin: 1rem;
   display: flex;
@@ -262,6 +356,26 @@
 
 .btn {
   background-color: #0097B2; }
+.homeContainer {
+  display: flex;
+  height: 80rem;
+  justify-content: space-around;
+  padding-top: 5rem; }
+
+.middleContainer {
+  width: 35%; }
+
+.leftContainer {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%; }
 
 body {
   background-color: #f1f1f1; }
@@ -326,12 +440,13 @@ body {
     margin-left: 860px; }
     .profile__aside__picture {
       position: relative;
-      margin-top: -350px; }
+      margin-top: -750px; }
       .profile__aside__pictureimg {
         width: 100%; }
   .profile__interest {
     width: 100%;
-    height: 150px;
+    min-height: 150px;
+    max-height: fit-content;
     background-color: white;
     border: 1px solid #b2b4b6;
     margin-top: 15px;
@@ -339,7 +454,8 @@ body {
     box-shadow: 0.5px 0.5px 5px #888888; }
   .profile__about {
     width: 100%;
-    height: 150px;
+    min-height: 150px;
+    max-height: fit-content;
     background-color: white;
     border: 1px solid #b2b4b6;
     margin-top: 15px;
@@ -458,3 +574,66 @@ body {
   flex-direction: column;
   align-items: flex-end;
   width: 35%; }
+  .profile .skill__edite {
+    display: flex;
+    margin-left: 430px;
+    margin-top: 2px; }
+    .profile .skill__edite__btn {
+      border: none;
+      background-color: white; }
+      .profile .skill__edite__btn:hover {
+        background-color: #dfdfdf; }
+    .profile .skill__edite__icon {
+      margin-left: 8px; }
+  .profile .skill__content {
+    margin-top: 15px;
+    margin-right: 15px; }
+  .profile .skill__search__input {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    width: 90%;
+    padding-left: 5px; }
+  .profile .skill__search__data {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px; }
+    .profile .skill__search__data .para {
+      background-color: #1997c9;
+      color: white;
+      border-radius: 40px;
+      padding: 10px;
+      padding-top: 5px;
+      height: 30px;
+      margin-right: 2px; }
+      .profile .skill__search__data .para:hover {
+        cursor: pointer; }
+  .profile .skill__search__options option {
+    width: 90%; }
+  .profile .skill__search__submit {
+    margin-top: 100px; }
+  .profile .top-skill {
+    background-color: rgba(169, 196, 247, 0.368);
+    margin-top: -15px;
+    height: 50px;
+    margin-bottom: 0px; }
+    .profile .top-skill p {
+      padding-top: 10px;
+      margin-left: 12px; }
+  .profile .edite-list {
+    padding: 0px; }
+    .profile .edite-list__item {
+      display: flex;
+      margin-bottom: 0px;
+      padding-bottom: 0px; }
+      .profile .edite-list__item p {
+        margin-left: 12px; }
+      .profile .edite-list__item span {
+        margin-left: 568px; }
+        .profile .edite-list__item span:hover {
+          color: #c42d2d; }
+  .profile .saveEdite {
+    margin-top: 100px; }
