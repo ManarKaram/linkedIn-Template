@@ -94,6 +94,96 @@
     color: #AAB3B8;
     margin-left: 1rem; }
 
+.profile__profile__edit-Profile {
+  width: 100%;
+  height: 100%;
+  background: rgba(41, 40, 40, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+  .profile__profile__edit-Profile__EditContainerForm {
+    border: 5px solid red;
+    position: fixed;
+    overflow-y: auto;
+    width: 700px; }
+    .profile__profile__edit-Profile__EditContainerForm__header {
+      display: flex; }
+      .profile__profile__edit-Profile__EditContainerForm__header .h5 {
+        margin-left: 12px;
+        margin-top: 15px;
+        padding: 0px; }
+      .profile__profile__edit-Profile__EditContainerForm__header__icon {
+        margin-left: 560px;
+        margin-top: 15px;
+        width: 15px; }
+        .profile__profile__edit-Profile__EditContainerForm__header__icon .i {
+          color: #0c7fbd; }
+          .profile__profile__edit-Profile__EditContainerForm__header__icon .i:hover {
+            color: #c04444;
+            cursor: pointer; }
+    .profile__profile__edit-Profile__EditContainerForm__body {
+      justify-content: center; }
+      .profile__profile__edit-Profile__EditContainerForm__body__text {
+        width: 90%;
+        height: 150px;
+        padding: 12px 20px;
+        position: relative;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        max-height: 150px;
+        min-height: 150px; }
+      .profile__profile__edit-Profile__EditContainerForm__body .picturesEdite {
+        position: relative; }
+        .profile__profile__edit-Profile__EditContainerForm__body .picturesEdite__background {
+          width: 100%;
+          display: block; }
+        .profile__profile__edit-Profile__EditContainerForm__body .picturesEdite__photo {
+          border: 3px solid #f1eeee;
+          border-radius: 50%;
+          width: 170px;
+          margin-top: -85px;
+          margin-left: 5%;
+          position: absolute; }
+      .profile__profile__edit-Profile__EditContainerForm__body label {
+        margin-left: 20px; }
+    .profile__profile__edit-Profile__EditContainerForm__personedit {
+      position: relative;
+      z-index: 5;
+      margin-top: 10%;
+      margin-right: 10%;
+      padding: 20px; }
+      .profile__profile__edit-Profile__EditContainerForm__personedit .flex {
+        display: flex;
+        margin-bottom: 30px; }
+      .profile__profile__edit-Profile__EditContainerForm__personedit .name {
+        margin-right: 15px; }
+      .profile__profile__edit-Profile__EditContainerForm__personedit h6 {
+        color: black; }
+        .profile__profile__edit-Profile__EditContainerForm__personedit h6 span {
+          color: #0073B1; }
+      .profile__profile__edit-Profile__EditContainerForm__personedit input {
+        border-color: black;
+        border-width: 0.5px;
+        width: 320px; }
+      .profile__profile__edit-Profile__EditContainerForm__personedit .edit-form {
+        width: 650px;
+        border-color: black;
+        border-width: 0.5px; }
+      .profile__profile__edit-Profile__EditContainerForm__personedit .education {
+        margin-top: 20px; }
+        .profile__profile__edit-Profile__EditContainerForm__personedit .education select {
+          height: 30px; }
+      .profile__profile__edit-Profile__EditContainerForm__personedit .edit-btn {
+        margin-top: 40px;
+        margin-left: 104%; }
+
+.profile .active {
+  display: block; }
+
 .profile__editeAbout {
   width: 100%;
   height: 100%;
